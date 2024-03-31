@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sistema_bancario
+Version: 0.0.1
+Summary: Sistema bancario POO organizado em pacote
+Home-page: githublink
+Author: Tiago Santiago
+Author-email: tiagosantiago@yandex.com
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+Requires-Dist: datetime
+
+# sistema_bancario
+    Desenvolvimento de um sistema bancário simples para cadastro de clientes e movimentação da conta sem persistência dos dados.
+
+## Instalação
+
+$ pip install sistema_bancario-0.0.1-py3-none-any.whl 
+
+## Uso
+    Em um console python
+    Defina uma lista para salvar os clientes e contas:
+    
+    $clientes = []
+    $contas = []
+    
+    importe a função sistemaBancario.run_sistema:
+
+    $ from sistema_bancario.sistemaBancario import run_sistema
+
+    chame a função run_sistema:
+
+    $run_sistema (clientes, contas)
+    
+## Autor
+
+Tiago Santiago
