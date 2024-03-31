@@ -9,15 +9,22 @@
 
 ## Descomplicando a Criação de Pacotes
 
-Esse desafio é uma evolução do desafio de sistemas bancários usando POO.
+Esse desafio compreende a criação de pacotes python. Eu gerei o pacote usando como base o projeto do desafio bancário em POO:
+
+https://github.com/tsdes-santiago/projetoDIOsistemaBancarioPOO
 
 # :bulb: Solução do desafio
 
-Arquivo gerado com o commando  
+Pacote estruturado da seguinte forma:
+
+<img src="pacote_sistema_bancario.png">
+
+Arquivo para a instalação gerado com o commando, o qual cria o diretório "dist":
 
 <code>$python setup.py sdist bdist_wheel </code>
 
-Testado e instalado localmente com:
+Instalado para teste, dentro do diretório "dist":
 
 <code> $pip install sistema_bancario-0.0.1-py3-none-any. </code>
 
+O projeto não foi publicado no Test Pypi. 
